@@ -39,7 +39,9 @@ If you choose to link your account using Meta authentication:
 
 * You will be redirected to an official Meta login page
 * After authentication, a temporary authorization code is sent back to the server
-* This code may be exchanged for basic account information (such as a unique user ID)
+* This code may be exchanged for basic account information, including a unique user ID and limited profile data
+
+This information is used solely to link your Meta account with your Discord account and provide related functionality.
 
 We do **not** store your password or login credentials.
 
@@ -69,9 +71,11 @@ However, no system is 100% secure, and use of the bot is at your own risk.
 
 ## 5. Data Sharing
 
-We do **not** sell, trade, or share your personal data with third parties.
+We do **not** sell or trade your personal data.
 
-Data may only be shared if required:
+However, limited data may be processed by third-party services when required for functionality (for example, during Meta authentication).
+
+Data may also be disclosed if required:
 
 * To comply with legal obligations
 * To prevent abuse or malicious activity
@@ -97,6 +101,8 @@ You have the right to:
 * Request correction of inaccurate data
 * Request deletion of your data
 * Unlink your external (Meta) account
+* Right to data portability
+* Right to restrict processing
 
 ---
 
@@ -152,7 +158,19 @@ For any questions, concerns, or requests:
 
 ## 12. Disclaimer
 
-This project is not affiliated with Discord or Meta. Only their API's that they own are utalised to provide this service.
+This project is not affiliated with Discord or Meta.  
+Their APIs are used solely to provide functionality for this service.  
 All trademarks belong to their respective owners.
 
 ---
+
+## 13. Third-Party Services
+
+This bot may interact with third-party platforms, including but not limited to Meta and Yeeps.
+
+By using features that involve these services, you acknowledge that your data may be processed in accordance with their respective Privacy Policies and Terms of Service.
+
+Yeeps Terms of Service:
+https://yeeps.com/policies/terms-of-service
+
+We are not responsible for the privacy practices or content of third-party services.
